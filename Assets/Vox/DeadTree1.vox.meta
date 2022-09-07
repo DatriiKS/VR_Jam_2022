@@ -1,0 +1,48 @@
+fileFormatVersion: 2
+guid: 6e963f9a0bd5b5945a47b33a6b6d28d4
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: eeb34f3ead148d04e8630fc3f79cbc1a, type: 3}
+  dataVersion: 6
+  fileType: 0
+  gameObjectName: DeadTree1
+  meshMode: 0
+  importMode: 1
+  importScale: {x: 0.5, y: 0.5, z: 0.5}
+  importOffset: {x: 0, y: 0, z: 0}
+  combineFaces: 0
+  ignoreCavity: 1
+  shareSameFace: 1
+  removeUnusedPalettes: 1
+  shareSameMaterial: 1
+  outputStructure: 0
+  generateLightmapUVs: 1
+  generateLightmapUVsAngleError: 8
+  generateLightmapUVsAreaError: 15
+  generateLightmapUVsHardAngle: 88
+  generateLightmapUVsPackMargin: 4
+  generateTangents: 0
+  generateVertexColors: 0
+  generateVertexColorMax: {r: 1, g: 1, b: 1, a: 1}
+  generateVertexColorMin: {r: 0.64, g: 0.64, b: 0.64, a: 1}
+  meshFaceVertexOffset: 0
+  loadFromVoxelFile: 1
+  generateMipMaps: 0
+  colliderType: 0
+  createContactChunkFaces: 0
+  materialMode: 0
+  materials:
+  - {fileID: -156486658544998735, guid: 6e963f9a0bd5b5945a47b33a6b6d28d4, type: 3}
+  materialNames:
+  - DeadTree1_0
+  remappedMaterials:
+  - name: DeadTree1_0
+    material: {instanceID: 0}
+  export: 0
+  legacyVoxImport: 0
+  legacyAssetNaming: 0

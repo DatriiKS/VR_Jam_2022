@@ -1,0 +1,677 @@
+﻿#include "pch-c.h"
+#ifndef _MSC_VER
+# include <alloca.h>
+#else
+# include <malloc.h>
+#endif
+
+
+#include "codegen/il2cpp-codegen-metadata.h"
+
+
+
+
+
+// 0x00000001 System.Void VoxelImporter.DataTable3`1::.ctor(System.Int32,System.Int32,System.Int32)
+// 0x00000002 System.Void VoxelImporter.DataTable3`1::Set(System.Int32,System.Int32,System.Int32,Type)
+// 0x00000003 System.Void VoxelImporter.DataTable3`1::Set(VoxelImporter.IntVector3,Type)
+// 0x00000004 Type VoxelImporter.DataTable3`1::Get(System.Int32,System.Int32,System.Int32)
+// 0x00000005 Type VoxelImporter.DataTable3`1::Get(VoxelImporter.IntVector3)
+// 0x00000006 System.Void VoxelImporter.DataTable3`1::Remove(System.Int32,System.Int32,System.Int32)
+// 0x00000007 System.Void VoxelImporter.DataTable3`1::Remove(VoxelImporter.IntVector3)
+// 0x00000008 System.Void VoxelImporter.DataTable3`1::Clear()
+// 0x00000009 System.Boolean VoxelImporter.DataTable3`1::Contains(System.Int32,System.Int32,System.Int32)
+// 0x0000000A System.Boolean VoxelImporter.DataTable3`1::Contains(VoxelImporter.IntVector3)
+// 0x0000000B System.Void VoxelImporter.DataTable3`1::AllAction(System.Action`4<System.Int32,System.Int32,System.Int32,Type>)
+// 0x0000000C System.Void VoxelImporter.DataTable3`1/<>c__DisplayClass10_0::.ctor()
+// 0x0000000D System.Void VoxelImporter.DataTable3`1/<>c__DisplayClass10_0::<AllAction>b__0(System.Int32,System.Int32,System.Int32)
+// 0x0000000E System.Void VoxelImporter.FlagTable3::.ctor(System.Int32,System.Int32,System.Int32)
+extern void FlagTable3__ctor_m57DB52BE192B8B7B3536F739DB2465AE44EA336E (void);
+// 0x0000000F System.Void VoxelImporter.FlagTable3::Set(System.Int32,System.Int32,System.Int32,System.Boolean)
+extern void FlagTable3_Set_mB84A322F00A6976A0037D6D3E0D3A822FCBE2E58 (void);
+// 0x00000010 System.Void VoxelImporter.FlagTable3::Set(VoxelImporter.IntVector3,System.Boolean)
+extern void FlagTable3_Set_m2F410BC3C5D16704D71DF57CC1D91FD5F4C761A0 (void);
+// 0x00000011 System.Boolean VoxelImporter.FlagTable3::Get(System.Int32,System.Int32,System.Int32)
+extern void FlagTable3_Get_mFE1CA3E4F9F40CB2893B3B6E222A6DD5C8A41E93 (void);
+// 0x00000012 System.Boolean VoxelImporter.FlagTable3::Get(VoxelImporter.IntVector3)
+extern void FlagTable3_Get_mA92FC0996160ACF734F48430509A5BC9A07018B2 (void);
+// 0x00000013 System.Void VoxelImporter.FlagTable3::Clear()
+extern void FlagTable3_Clear_m247BC97B12E85A255790C12B2A20A51C88E1234F (void);
+// 0x00000014 System.Void VoxelImporter.FlagTable3::AllAction(System.Action`3<System.Int32,System.Int32,System.Int32>)
+extern void FlagTable3_AllAction_mD0D50E019395C13773ACA2F0C41A5B892FFBA727 (void);
+// 0x00000015 System.Int32 VoxelImporter.FlagTable3::get_bufferSize()
+extern void FlagTable3_get_bufferSize_m37B6A0522E85B2E3ABF0A3A4CBA2C2DD7258E336 (void);
+// 0x00000016 System.Void VoxelImporter.IntVector2::.ctor(System.Int32,System.Int32)
+extern void IntVector2__ctor_m0346F56EB0F9C5E62A14827A9F47A1E7B3C6C343 (void);
+// 0x00000017 VoxelImporter.IntVector2 VoxelImporter.IntVector2::op_UnaryNegation(VoxelImporter.IntVector2)
+extern void IntVector2_op_UnaryNegation_m16F33FECCFB39E600588B0E892057BFC87574EBD (void);
+// 0x00000018 VoxelImporter.IntVector2 VoxelImporter.IntVector2::op_Subtraction(VoxelImporter.IntVector2,VoxelImporter.IntVector2)
+extern void IntVector2_op_Subtraction_m493A8E6794ACCC7FA1013A4BFE75C20416317452 (void);
+// 0x00000019 VoxelImporter.IntVector2 VoxelImporter.IntVector2::op_Multiply(System.Int32,VoxelImporter.IntVector2)
+extern void IntVector2_op_Multiply_mA63897BC5BA369C585599C7F9D31E03EA85341B4 (void);
+// 0x0000001A VoxelImporter.IntVector2 VoxelImporter.IntVector2::op_Multiply(VoxelImporter.IntVector2,System.Int32)
+extern void IntVector2_op_Multiply_m4CAA670C09BD64AD4A42609AC645C62B4AFF5DFF (void);
+// 0x0000001B VoxelImporter.IntVector2 VoxelImporter.IntVector2::op_Multiply(VoxelImporter.IntVector2,VoxelImporter.IntVector2)
+extern void IntVector2_op_Multiply_m39AF54C035C51C4E17C9E1ADAA341810F43DAA11 (void);
+// 0x0000001C VoxelImporter.IntVector2 VoxelImporter.IntVector2::op_Division(VoxelImporter.IntVector2,System.Int32)
+extern void IntVector2_op_Division_mE5720538935F062F66D03AC83EFB0ACA7E46FAFA (void);
+// 0x0000001D VoxelImporter.IntVector2 VoxelImporter.IntVector2::op_Division(VoxelImporter.IntVector2,VoxelImporter.IntVector2)
+extern void IntVector2_op_Division_m205C5F6A981F2DEC10A9E828469DA4B52A4E4311 (void);
+// 0x0000001E VoxelImporter.IntVector2 VoxelImporter.IntVector2::op_Addition(VoxelImporter.IntVector2,VoxelImporter.IntVector2)
+extern void IntVector2_op_Addition_m4EC3EEC8F92D298E93A6F3F53B8F1A03ED15637D (void);
+// 0x0000001F System.Boolean VoxelImporter.IntVector2::op_Equality(VoxelImporter.IntVector2,VoxelImporter.IntVector2)
+extern void IntVector2_op_Equality_m9ECDB0559579DA276DAB74B0605F29DA633BF567 (void);
+// 0x00000020 System.Boolean VoxelImporter.IntVector2::op_Inequality(VoxelImporter.IntVector2,VoxelImporter.IntVector2)
+extern void IntVector2_op_Inequality_mECD0623BF68FEE3C28E4CF4E147D45CB72D67151 (void);
+// 0x00000021 VoxelImporter.IntVector2 VoxelImporter.IntVector2::Max(VoxelImporter.IntVector2,VoxelImporter.IntVector2)
+extern void IntVector2_Max_m24E51C2170A1579BCA7F92CAC033CC2E530B1749 (void);
+// 0x00000022 VoxelImporter.IntVector2 VoxelImporter.IntVector2::Min(VoxelImporter.IntVector2,VoxelImporter.IntVector2)
+extern void IntVector2_Min_mDC997A2885085A30887E244BAFF941F1A387A0FF (void);
+// 0x00000023 VoxelImporter.IntVector2 VoxelImporter.IntVector2::get_zero()
+extern void IntVector2_get_zero_mCF1B249FA0DF8CA7FA9C1DC741AA9B18B931581F (void);
+// 0x00000024 VoxelImporter.IntVector2 VoxelImporter.IntVector2::get_one()
+extern void IntVector2_get_one_m0F98ECB01E38A30FFD00D84508DBF5756DF51F73 (void);
+// 0x00000025 System.Int32 VoxelImporter.IntVector2::GetHashCode()
+extern void IntVector2_GetHashCode_m091907A8F206B996E2E137B31676277D82BDBF4A (void);
+// 0x00000026 System.Boolean VoxelImporter.IntVector2::Equals(System.Object)
+extern void IntVector2_Equals_m45D8C33B59E6FB7E87A081DE90F287F7DE19BAC6 (void);
+// 0x00000027 System.Void VoxelImporter.IntVector3::.ctor(System.Int32,System.Int32,System.Int32)
+extern void IntVector3__ctor_mBFDD840E8F17101D7902D20A24D71A8C6074E273 (void);
+// 0x00000028 VoxelImporter.IntVector3 VoxelImporter.IntVector3::op_UnaryNegation(VoxelImporter.IntVector3)
+extern void IntVector3_op_UnaryNegation_m74BAE64DB0EC5D220137A85B932889234498B0C7 (void);
+// 0x00000029 VoxelImporter.IntVector3 VoxelImporter.IntVector3::op_Subtraction(VoxelImporter.IntVector3,VoxelImporter.IntVector3)
+extern void IntVector3_op_Subtraction_m6268F73D9418302ABFA0ECE5EB97A6593DFA46D8 (void);
+// 0x0000002A VoxelImporter.IntVector3 VoxelImporter.IntVector3::op_Multiply(System.Int32,VoxelImporter.IntVector3)
+extern void IntVector3_op_Multiply_m3DA311EC6C11BB24F3E298C8A845D7AEB7977CC5 (void);
+// 0x0000002B VoxelImporter.IntVector3 VoxelImporter.IntVector3::op_Multiply(VoxelImporter.IntVector3,System.Int32)
+extern void IntVector3_op_Multiply_m0E586328C1852C40FA3AFE992004E59675F17846 (void);
+// 0x0000002C VoxelImporter.IntVector3 VoxelImporter.IntVector3::op_Multiply(VoxelImporter.IntVector3,VoxelImporter.IntVector3)
+extern void IntVector3_op_Multiply_mCD2D5DAF1C6A910E573C910C71A66426423FA70C (void);
+// 0x0000002D VoxelImporter.IntVector3 VoxelImporter.IntVector3::op_Division(VoxelImporter.IntVector3,System.Int32)
+extern void IntVector3_op_Division_m42396D06655BBF31D0723F47257D72AAA0524771 (void);
+// 0x0000002E VoxelImporter.IntVector3 VoxelImporter.IntVector3::op_Division(VoxelImporter.IntVector3,VoxelImporter.IntVector3)
+extern void IntVector3_op_Division_m160F06DE262F5FA31AAF383C4831E19E67B20CBC (void);
+// 0x0000002F VoxelImporter.IntVector3 VoxelImporter.IntVector3::op_Addition(VoxelImporter.IntVector3,VoxelImporter.IntVector3)
+extern void IntVector3_op_Addition_mF4C6658FED6F4B3857A1723AEEC33CE73B606579 (void);
+// 0x00000030 System.Boolean VoxelImporter.IntVector3::op_Equality(VoxelImporter.IntVector3,VoxelImporter.IntVector3)
+extern void IntVector3_op_Equality_m8D30F7E4D52340D573B56E217943118AEB0786E0 (void);
+// 0x00000031 System.Boolean VoxelImporter.IntVector3::op_Inequality(VoxelImporter.IntVector3,VoxelImporter.IntVector3)
+extern void IntVector3_op_Inequality_m1B1DDEF2DD8CBABC36ACF6D0B2DCEDEFFAE2E49C (void);
+// 0x00000032 VoxelImporter.IntVector3 VoxelImporter.IntVector3::Max(VoxelImporter.IntVector3,VoxelImporter.IntVector3)
+extern void IntVector3_Max_m553D2B8E7169595EFF5051C7979ACD072D9E25F3 (void);
+// 0x00000033 VoxelImporter.IntVector3 VoxelImporter.IntVector3::Min(VoxelImporter.IntVector3,VoxelImporter.IntVector3)
+extern void IntVector3_Min_m562C8C72A56015128972E2D9F38D81AD9786F8E8 (void);
+// 0x00000034 VoxelImporter.IntVector3 VoxelImporter.IntVector3::get_zero()
+extern void IntVector3_get_zero_m7D3E9EE8DBB2CA8C1074CDB28E953B908539335B (void);
+// 0x00000035 VoxelImporter.IntVector3 VoxelImporter.IntVector3::get_one()
+extern void IntVector3_get_one_mA06819F0AAE08E797A5CD91FD12DD169F4F5D494 (void);
+// 0x00000036 System.Int32 VoxelImporter.IntVector3::GetHashCode()
+extern void IntVector3_GetHashCode_m2640E8FE4409E746A36F2966A3AF3E7D95DE04E9 (void);
+// 0x00000037 System.Boolean VoxelImporter.IntVector3::Equals(System.Object)
+extern void IntVector3_Equals_m736EB192A1552767E2E031A45725CFC87067F9A8 (void);
+// 0x00000038 System.Void VoxelImporter.IntVector4::.ctor(System.Int32,System.Int32,System.Int32,System.Int32)
+extern void IntVector4__ctor_m968E5912AAE74CFAD8E13E7901AAA3BD5211299F (void);
+// 0x00000039 VoxelImporter.IntVector4 VoxelImporter.IntVector4::op_UnaryNegation(VoxelImporter.IntVector4)
+extern void IntVector4_op_UnaryNegation_mE2FF193A58874F3D30CF2DDCB138670DCC24B9E2 (void);
+// 0x0000003A VoxelImporter.IntVector4 VoxelImporter.IntVector4::op_Subtraction(VoxelImporter.IntVector4,VoxelImporter.IntVector4)
+extern void IntVector4_op_Subtraction_mE20D2E84B0BFD5F3E46E8F5358E4E4F312262A27 (void);
+// 0x0000003B VoxelImporter.IntVector4 VoxelImporter.IntVector4::op_Multiply(System.Int32,VoxelImporter.IntVector4)
+extern void IntVector4_op_Multiply_m536322304A19A7F1A21D07A542C7C7DF6B9CE678 (void);
+// 0x0000003C VoxelImporter.IntVector4 VoxelImporter.IntVector4::op_Multiply(VoxelImporter.IntVector4,System.Int32)
+extern void IntVector4_op_Multiply_mD5B26480F3F2C52FDAA71F36FE6F466DF47F9E08 (void);
+// 0x0000003D VoxelImporter.IntVector4 VoxelImporter.IntVector4::op_Multiply(VoxelImporter.IntVector4,VoxelImporter.IntVector4)
+extern void IntVector4_op_Multiply_m3AD6A369BA4E90FECA25B1E4D74CD974CA96D60B (void);
+// 0x0000003E VoxelImporter.IntVector4 VoxelImporter.IntVector4::op_Division(VoxelImporter.IntVector4,System.Int32)
+extern void IntVector4_op_Division_m7F87E25420829405B32EA9761E9CAB9C5040B218 (void);
+// 0x0000003F VoxelImporter.IntVector4 VoxelImporter.IntVector4::op_Division(VoxelImporter.IntVector4,VoxelImporter.IntVector4)
+extern void IntVector4_op_Division_mD329A1457238532A501A1998DBDB9AF601E94DE2 (void);
+// 0x00000040 VoxelImporter.IntVector4 VoxelImporter.IntVector4::op_Addition(VoxelImporter.IntVector4,VoxelImporter.IntVector4)
+extern void IntVector4_op_Addition_m1AA85D766F0D31B500E0207EDE04E1AA358A622C (void);
+// 0x00000041 System.Boolean VoxelImporter.IntVector4::op_Equality(VoxelImporter.IntVector4,VoxelImporter.IntVector4)
+extern void IntVector4_op_Equality_m20DE257357B0EDC7BD6175D2910E7C70E433C34C (void);
+// 0x00000042 System.Boolean VoxelImporter.IntVector4::op_Inequality(VoxelImporter.IntVector4,VoxelImporter.IntVector4)
+extern void IntVector4_op_Inequality_mA621466C8D16D4BFB0F9F18FEFB0E9E6321A8D89 (void);
+// 0x00000043 VoxelImporter.IntVector4 VoxelImporter.IntVector4::Max(VoxelImporter.IntVector4,VoxelImporter.IntVector4)
+extern void IntVector4_Max_mE366FF0CF247FE440DB09C7CF523690F85F7E120 (void);
+// 0x00000044 VoxelImporter.IntVector4 VoxelImporter.IntVector4::Min(VoxelImporter.IntVector4,VoxelImporter.IntVector4)
+extern void IntVector4_Min_m78A2ED547D2FAC1F49040A144BE7E80F49E1AE76 (void);
+// 0x00000045 VoxelImporter.IntVector4 VoxelImporter.IntVector4::get_zero()
+extern void IntVector4_get_zero_m983552AA0972620F91729F0A3785D2A049D9516D (void);
+// 0x00000046 VoxelImporter.IntVector4 VoxelImporter.IntVector4::get_one()
+extern void IntVector4_get_one_m7C4C9FF876D16879A4DC7F4877628D4E5059F953 (void);
+// 0x00000047 System.Int32 VoxelImporter.IntVector4::GetHashCode()
+extern void IntVector4_GetHashCode_m221D130BD826ED6E7C4D27488FDAB01346E2623C (void);
+// 0x00000048 System.Boolean VoxelImporter.IntVector4::Equals(System.Object)
+extern void IntVector4_Equals_m669CC7DE3801D1583D93264AC8836C5B5E6BE7F1 (void);
+// 0x00000049 VoxelImporter.VoxelBase VoxelImporter.VoxelBaseExplosion::get_voxelBase()
+extern void VoxelBaseExplosion_get_voxelBase_mB6894F7EFAF29203C574A79174CAE214CDF87819 (void);
+// 0x0000004A System.Void VoxelImporter.VoxelBaseExplosion::set_voxelBase(VoxelImporter.VoxelBase)
+extern void VoxelBaseExplosion_set_voxelBase_m7994A3E027E5F24E1584DAF72A2A9DA57CF9ADE3 (void);
+// 0x0000004B UnityEngine.Transform VoxelImporter.VoxelBaseExplosion::get_transformCache()
+extern void VoxelBaseExplosion_get_transformCache_m36CCB7027554B8FBE6BB941D82ACA69F6BD2D672 (void);
+// 0x0000004C System.Void VoxelImporter.VoxelBaseExplosion::set_transformCache(UnityEngine.Transform)
+extern void VoxelBaseExplosion_set_transformCache_mA78AC618A18DE011FF222E99342858E4D9E1496E (void);
+// 0x0000004D UnityEngine.Renderer VoxelImporter.VoxelBaseExplosion::get_rendererCache()
+extern void VoxelBaseExplosion_get_rendererCache_m81BC5AB09D045E49CC020AEA869F8537D3AD04B3 (void);
+// 0x0000004E System.Void VoxelImporter.VoxelBaseExplosion::set_rendererCache(UnityEngine.Renderer)
+extern void VoxelBaseExplosion_set_rendererCache_m402113E31DA420F9549DB50EA8CAE1E69740CE19 (void);
+// 0x0000004F System.Void VoxelImporter.VoxelBaseExplosion::Awake()
+extern void VoxelBaseExplosion_Awake_mD6537F6493BADBED297E82BE1B83F305E17C7707 (void);
+// 0x00000050 System.Void VoxelImporter.VoxelBaseExplosion::OnDestroy()
+extern void VoxelBaseExplosion_OnDestroy_m44CDA1BDCB14EA0E0B275A0AC5291CD3608D279B (void);
+// 0x00000051 System.Void VoxelImporter.VoxelBaseExplosion::Update()
+extern void VoxelBaseExplosion_Update_mA3609C772C9E27D930821C76DE3ED7132BA7D7C2 (void);
+// 0x00000052 System.Void VoxelImporter.VoxelBaseExplosion::ExplosionPlay(System.Single,System.Action)
+extern void VoxelBaseExplosion_ExplosionPlay_m75A64F62976AEC3F46C461823A93FFDC68540DEE (void);
+// 0x00000053 System.Void VoxelImporter.VoxelBaseExplosion::ExplosionReversePlay(System.Single,System.Action)
+extern void VoxelBaseExplosion_ExplosionReversePlay_m454813438756E6C2C29CBC91A81A0CFEF7C82E2F (void);
+// 0x00000054 System.Void VoxelImporter.VoxelBaseExplosion::SetEnableExplosionObject(System.Boolean)
+extern void VoxelBaseExplosion_SetEnableExplosionObject_m9FC3F9DA912B595A3FD9C228914A8499F2CA7E69 (void);
+// 0x00000055 System.Void VoxelImporter.VoxelBaseExplosion::SetEnableRenderer(System.Boolean)
+extern void VoxelBaseExplosion_SetEnableRenderer_m35A9A6840230FB8BAA59DC95F3CB606B191D0E3B (void);
+// 0x00000056 System.Void VoxelImporter.VoxelBaseExplosion::DrawMesh()
+extern void VoxelBaseExplosion_DrawMesh_mEE518F670BF926D9878BB4DC26F35FA49C4C0824 (void);
+// 0x00000057 System.Void VoxelImporter.VoxelBaseExplosion::SetExplosionRate(System.Single)
+extern void VoxelBaseExplosion_SetExplosionRate_m06D929FA2727E297E8137F807DB8CDCB2C3D3EB3 (void);
+// 0x00000058 System.Void VoxelImporter.VoxelBaseExplosion::SetExplosionCenter(UnityEngine.Vector3)
+extern void VoxelBaseExplosion_SetExplosionCenter_mC8D8B733F4C8C0D963A5BEDE009B571FCD5C4A41 (void);
+// 0x00000059 System.Void VoxelImporter.VoxelBaseExplosion::SetExplosionRotate(System.Single)
+extern void VoxelBaseExplosion_SetExplosionRotate_m642BF427D33B5881E13C435E1AE63B7D24BF2721 (void);
+// 0x0000005A System.Void VoxelImporter.VoxelBaseExplosion::.ctor()
+extern void VoxelBaseExplosion__ctor_m5A1FA8C2D85A431C7A8FD9111C69F34E7EB7C46E (void);
+// 0x0000005B System.Void VoxelImporter.VoxelBaseExplosion/MeshData::.ctor()
+extern void MeshData__ctor_m63083AAECFEA2E3D773577BB1C3671AF51A04156 (void);
+// 0x0000005C VoxelImporter.VoxelChunksObjectExplosion VoxelImporter.VoxelChunksObjectChunkExplosion::get_explosionObject()
+extern void VoxelChunksObjectChunkExplosion_get_explosionObject_m2AE3EA08B1D16C335357B81F1A1BE0978D9325E0 (void);
+// 0x0000005D System.Void VoxelImporter.VoxelChunksObjectChunkExplosion::set_explosionObject(VoxelImporter.VoxelChunksObjectExplosion)
+extern void VoxelChunksObjectChunkExplosion_set_explosionObject_mA54955D005ACAEEC9B029A9F9F3F42626C579B92 (void);
+// 0x0000005E UnityEngine.Transform VoxelImporter.VoxelChunksObjectChunkExplosion::get_transformCache()
+extern void VoxelChunksObjectChunkExplosion_get_transformCache_m743C7BC769C104458D41BA8EBC6D452A2AC13607 (void);
+// 0x0000005F System.Void VoxelImporter.VoxelChunksObjectChunkExplosion::set_transformCache(UnityEngine.Transform)
+extern void VoxelChunksObjectChunkExplosion_set_transformCache_mFA2B537EFFC6B1BFD02C795374737F4F665444EE (void);
+// 0x00000060 UnityEngine.Transform VoxelImporter.VoxelChunksObjectChunkExplosion::get_parentCache()
+extern void VoxelChunksObjectChunkExplosion_get_parentCache_m55434552B8E0D7E4818A520E37362F7DA2C28C02 (void);
+// 0x00000061 System.Void VoxelImporter.VoxelChunksObjectChunkExplosion::set_parentCache(UnityEngine.Transform)
+extern void VoxelChunksObjectChunkExplosion_set_parentCache_mB12446B16DD7C4D96BA6114D2D30E160D16705C6 (void);
+// 0x00000062 UnityEngine.Renderer VoxelImporter.VoxelChunksObjectChunkExplosion::get_rendererCache()
+extern void VoxelChunksObjectChunkExplosion_get_rendererCache_m36C03848756028D181495DA6BB0B5E72B749BF89 (void);
+// 0x00000063 System.Void VoxelImporter.VoxelChunksObjectChunkExplosion::set_rendererCache(UnityEngine.Renderer)
+extern void VoxelChunksObjectChunkExplosion_set_rendererCache_m48EFB8B93F68FEA6B4917DCAF0F3981D1858B8A2 (void);
+// 0x00000064 System.Void VoxelImporter.VoxelChunksObjectChunkExplosion::Awake()
+extern void VoxelChunksObjectChunkExplosion_Awake_m670518D2E5BFB4237B2D62708F4A287FC6C0A894 (void);
+// 0x00000065 System.Void VoxelImporter.VoxelChunksObjectChunkExplosion::DrawMesh()
+extern void VoxelChunksObjectChunkExplosion_DrawMesh_mD4F92F13C0188DBD57E6EB39429180CF826F1421 (void);
+// 0x00000066 System.Void VoxelImporter.VoxelChunksObjectChunkExplosion::SetEnableRenderer(System.Boolean)
+extern void VoxelChunksObjectChunkExplosion_SetEnableRenderer_m53A9B36A2EAF80A5AFCA4A57F6A3EB6D880AB478 (void);
+// 0x00000067 System.Void VoxelImporter.VoxelChunksObjectChunkExplosion::.ctor()
+extern void VoxelChunksObjectChunkExplosion__ctor_m91582A18358E345EF80BBFC4F01480A238496507 (void);
+// 0x00000068 System.Void VoxelImporter.VoxelChunksObjectExplosion::Awake()
+extern void VoxelChunksObjectExplosion_Awake_mF9D59CF72C038BE0BECD5E02D652FD42F7BE9896 (void);
+// 0x00000069 System.Void VoxelImporter.VoxelChunksObjectExplosion::OnDestroy()
+extern void VoxelChunksObjectExplosion_OnDestroy_m363A98DBD70DA732ACA23BE3D8AA8C635EA63FA1 (void);
+// 0x0000006A System.Void VoxelImporter.VoxelChunksObjectExplosion::DrawMesh()
+extern void VoxelChunksObjectExplosion_DrawMesh_m30E0417E5125FC6B28186DBCDA318140AD8281D8 (void);
+// 0x0000006B System.Void VoxelImporter.VoxelChunksObjectExplosion::SetEnableExplosionObject(System.Boolean)
+extern void VoxelChunksObjectExplosion_SetEnableExplosionObject_m54748415F77D780FE34F4D3A8854F1D35B5AA8DB (void);
+// 0x0000006C System.Void VoxelImporter.VoxelChunksObjectExplosion::SetEnableRenderer(System.Boolean)
+extern void VoxelChunksObjectExplosion_SetEnableRenderer_mB17D2D32C663425C3FEC90FED89D7798A574EF58 (void);
+// 0x0000006D System.Void VoxelImporter.VoxelChunksObjectExplosion::.ctor()
+extern void VoxelChunksObjectExplosion__ctor_m90D2CFB46D8DD670D0D8DB7FB165E9212F1F6116 (void);
+// 0x0000006E VoxelImporter.VoxelFrameAnimationObject VoxelImporter.VoxelFrameAnimationObjectExplosion::get_voxelObject()
+extern void VoxelFrameAnimationObjectExplosion_get_voxelObject_mD95399937FC9815B706C7B61A8B415C6DF185B74 (void);
+// 0x0000006F System.Void VoxelImporter.VoxelFrameAnimationObjectExplosion::set_voxelObject(VoxelImporter.VoxelFrameAnimationObject)
+extern void VoxelFrameAnimationObjectExplosion_set_voxelObject_m8E4AD30C16C21872F510D5276310A0B0AB739555 (void);
+// 0x00000070 System.Void VoxelImporter.VoxelFrameAnimationObjectExplosion::Awake()
+extern void VoxelFrameAnimationObjectExplosion_Awake_m349BD3ACFF9369D523BC895A654AF0C8F22CF149 (void);
+// 0x00000071 System.Void VoxelImporter.VoxelFrameAnimationObjectExplosion::DrawMesh()
+extern void VoxelFrameAnimationObjectExplosion_DrawMesh_mE6F45B828B30D78AC65A6F7140C9A4A47D8E9DD8 (void);
+// 0x00000072 System.Void VoxelImporter.VoxelFrameAnimationObjectExplosion::.ctor()
+extern void VoxelFrameAnimationObjectExplosion__ctor_m0D90153B3496368B70FF87BEC4606F5BF60D8247 (void);
+// 0x00000073 VoxelImporter.VoxelObject VoxelImporter.VoxelObjectExplosion::get_voxelObject()
+extern void VoxelObjectExplosion_get_voxelObject_m7B42556E249D16F4E06846F2F1C745D5B232D4D6 (void);
+// 0x00000074 System.Void VoxelImporter.VoxelObjectExplosion::set_voxelObject(VoxelImporter.VoxelObject)
+extern void VoxelObjectExplosion_set_voxelObject_m20EF18526E5C9EE1F3107EB935FF8D18CDB0C934 (void);
+// 0x00000075 System.Void VoxelImporter.VoxelObjectExplosion::Awake()
+extern void VoxelObjectExplosion_Awake_m532486973041092C0E09BAFB3B0942EF7F356251 (void);
+// 0x00000076 System.Void VoxelImporter.VoxelObjectExplosion::DrawMesh()
+extern void VoxelObjectExplosion_DrawMesh_m155002BE8A4A64491AD4850A69A32BD30C9E939F (void);
+// 0x00000077 System.Void VoxelImporter.VoxelObjectExplosion::.ctor()
+extern void VoxelObjectExplosion__ctor_m29F663E33B5DB2AC36AA26C8E17004EFF6C8B2E4 (void);
+// 0x00000078 VoxelImporter.VoxelSkinnedAnimationObject VoxelImporter.VoxelSkinnedAnimationObjectExplosion::get_voxelObject()
+extern void VoxelSkinnedAnimationObjectExplosion_get_voxelObject_m908A319E824BBDCA7F8B6018D6EAC6C40ACC3698 (void);
+// 0x00000079 System.Void VoxelImporter.VoxelSkinnedAnimationObjectExplosion::set_voxelObject(VoxelImporter.VoxelSkinnedAnimationObject)
+extern void VoxelSkinnedAnimationObjectExplosion_set_voxelObject_m15FE0F47A1231A4A91BD7A71F63663D7A52052FA (void);
+// 0x0000007A UnityEngine.SkinnedMeshRenderer VoxelImporter.VoxelSkinnedAnimationObjectExplosion::get_skinnedMeshRendererCache()
+extern void VoxelSkinnedAnimationObjectExplosion_get_skinnedMeshRendererCache_m8F7D85018789BF1516BE20727BE22BE29BCE4070 (void);
+// 0x0000007B System.Void VoxelImporter.VoxelSkinnedAnimationObjectExplosion::set_skinnedMeshRendererCache(UnityEngine.SkinnedMeshRenderer)
+extern void VoxelSkinnedAnimationObjectExplosion_set_skinnedMeshRendererCache_m885B58E58A2CAEE3952B1F38F7B2649C5A81FC63 (void);
+// 0x0000007C System.Void VoxelImporter.VoxelSkinnedAnimationObjectExplosion::Awake()
+extern void VoxelSkinnedAnimationObjectExplosion_Awake_m612D6F4BA249B65BB27DBFE24781D076EBDE30C9 (void);
+// 0x0000007D System.Void VoxelImporter.VoxelSkinnedAnimationObjectExplosion::OnDestroy()
+extern void VoxelSkinnedAnimationObjectExplosion_OnDestroy_mAF043736A5F057945418C6B00EA3CAD9A2F76CA9 (void);
+// 0x0000007E System.Void VoxelImporter.VoxelSkinnedAnimationObjectExplosion::BakeExplosionPlay(System.Single,System.Action)
+extern void VoxelSkinnedAnimationObjectExplosion_BakeExplosionPlay_m59D3496782FCF20399B7F795055DCBEE026D117A (void);
+// 0x0000007F System.Void VoxelImporter.VoxelSkinnedAnimationObjectExplosion::DrawMesh()
+extern void VoxelSkinnedAnimationObjectExplosion_DrawMesh_m018162343E3760D42D7476AF693667F68D2974D9 (void);
+// 0x00000080 System.Void VoxelImporter.VoxelSkinnedAnimationObjectExplosion::BakeMesh()
+extern void VoxelSkinnedAnimationObjectExplosion_BakeMesh_m73AC96E28F7C2B396CE5BC76B37393B4D4124B21 (void);
+// 0x00000081 System.Void VoxelImporter.VoxelSkinnedAnimationObjectExplosion::.ctor()
+extern void VoxelSkinnedAnimationObjectExplosion__ctor_m302610952BEE240F8F28A54D68B64D898E0DA892 (void);
+// 0x00000082 System.Void VoxelImporter.VoxelSkinnedAnimationObjectExplosion/SkinnedAnimationMeshData::.ctor()
+extern void SkinnedAnimationMeshData__ctor_m377D1F5C2376CD3306C6E83BA600C615D756155D (void);
+// 0x00000083 System.Void VoxelImporter.VoxelStructure::.ctor()
+extern void VoxelStructure__ctor_mF281C52CB11606317B7631CF698D15C3D428B0F5 (void);
+// 0x00000084 UnityEngine.Vector3 VoxelImporter.VoxelStructure/Voxel::get_position()
+extern void Voxel_get_position_m2E3EBC03190C72A464B4DAD103B9D147535E87D1 (void);
+// 0x00000085 System.Void VoxelImporter.VoxelBase::.ctor()
+extern void VoxelBase__ctor_mB1A2D2C1F501242C404D8B635C707A819D47B3CB (void);
+// 0x00000086 System.Void VoxelImporter.VoxelChunksObject::Awake()
+extern void VoxelChunksObject_Awake_m0C97C0FB164E6664E8E82C8EF0BC33E5455FD65D (void);
+// 0x00000087 System.Void VoxelImporter.VoxelChunksObject::.ctor()
+extern void VoxelChunksObject__ctor_mE57A9FE30A11DDE85B7F8389F0D26126C8085BE9 (void);
+// 0x00000088 System.Void VoxelImporter.VoxelChunksObjectChunk::Awake()
+extern void VoxelChunksObjectChunk_Awake_mB34C4FFE0BF6C05F637DFBF64E193AF36EA7F698 (void);
+// 0x00000089 System.Void VoxelImporter.VoxelChunksObjectChunk::.ctor()
+extern void VoxelChunksObjectChunk__ctor_mBC8F4116B9314FBE2EBCCC71DA22C3250C4F2130 (void);
+// 0x0000008A System.Void VoxelImporter.VoxelFrameAnimationObject::Awake()
+extern void VoxelFrameAnimationObject_Awake_m074321DDCB2596877D3966F87B943608E5329518 (void);
+// 0x0000008B System.Void VoxelImporter.VoxelFrameAnimationObject::LateUpdate()
+extern void VoxelFrameAnimationObject_LateUpdate_mAA6C764D16F3A9F4E6DAA7BA80523DC408ACCADE (void);
+// 0x0000008C System.Void VoxelImporter.VoxelFrameAnimationObject::ClearFrame()
+extern void VoxelFrameAnimationObject_ClearFrame_m1F6EC6D0FD1FAF661A695117145ACEDBB6453ED2 (void);
+// 0x0000008D System.Boolean VoxelImporter.VoxelFrameAnimationObject::ChangeFrame(System.String)
+extern void VoxelFrameAnimationObject_ChangeFrame_m36F654896FBEA142CF477399C5B64AF778F303DF (void);
+// 0x0000008E System.Void VoxelImporter.VoxelFrameAnimationObject::.ctor()
+extern void VoxelFrameAnimationObject__ctor_mD972AF4F8AB9C5456A10DE8DECD425B9DE87EF39 (void);
+// 0x0000008F System.Void VoxelImporter.VoxelFrameAnimationObject/FrameData::.ctor()
+extern void FrameData__ctor_m2516B5F0D5C15B08D0328A32186FE5769E7A0F4E (void);
+// 0x00000090 System.Void VoxelImporter.VoxelObject::Awake()
+extern void VoxelObject_Awake_m1EA7DC013A008DD15EA7FE1066922A41A9A94264 (void);
+// 0x00000091 System.Void VoxelImporter.VoxelObject::.ctor()
+extern void VoxelObject__ctor_m0BB9E7270A722867490C8A6BCB9B25B7C955E271 (void);
+// 0x00000092 System.Void VoxelImporter.VoxelSkinnedAnimationObject::Awake()
+extern void VoxelSkinnedAnimationObject_Awake_m67575ABED7AFC9A8D7EFFC21592CAF17F1EF7729 (void);
+// 0x00000093 System.Void VoxelImporter.VoxelSkinnedAnimationObject::.ctor()
+extern void VoxelSkinnedAnimationObject__ctor_mCAE52825E80E06758B0AB053E24FA39EED5387A4 (void);
+// 0x00000094 System.Void VoxelImporter.VoxelSkinnedAnimationObjectBone::Awake()
+extern void VoxelSkinnedAnimationObjectBone_Awake_m9A7028F1604787AC287323393DA16D3374A5A25F (void);
+// 0x00000095 System.Void VoxelImporter.VoxelSkinnedAnimationObjectBone::.ctor()
+extern void VoxelSkinnedAnimationObjectBone__ctor_mE3A198A17D16B449F518CBCAAF0650A642EA4F45 (void);
+static Il2CppMethodPointer s_methodPointers[149] = 
+{
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	FlagTable3__ctor_m57DB52BE192B8B7B3536F739DB2465AE44EA336E,
+	FlagTable3_Set_mB84A322F00A6976A0037D6D3E0D3A822FCBE2E58,
+	FlagTable3_Set_m2F410BC3C5D16704D71DF57CC1D91FD5F4C761A0,
+	FlagTable3_Get_mFE1CA3E4F9F40CB2893B3B6E222A6DD5C8A41E93,
+	FlagTable3_Get_mA92FC0996160ACF734F48430509A5BC9A07018B2,
+	FlagTable3_Clear_m247BC97B12E85A255790C12B2A20A51C88E1234F,
+	FlagTable3_AllAction_mD0D50E019395C13773ACA2F0C41A5B892FFBA727,
+	FlagTable3_get_bufferSize_m37B6A0522E85B2E3ABF0A3A4CBA2C2DD7258E336,
+	IntVector2__ctor_m0346F56EB0F9C5E62A14827A9F47A1E7B3C6C343,
+	IntVector2_op_UnaryNegation_m16F33FECCFB39E600588B0E892057BFC87574EBD,
+	IntVector2_op_Subtraction_m493A8E6794ACCC7FA1013A4BFE75C20416317452,
+	IntVector2_op_Multiply_mA63897BC5BA369C585599C7F9D31E03EA85341B4,
+	IntVector2_op_Multiply_m4CAA670C09BD64AD4A42609AC645C62B4AFF5DFF,
+	IntVector2_op_Multiply_m39AF54C035C51C4E17C9E1ADAA341810F43DAA11,
+	IntVector2_op_Division_mE5720538935F062F66D03AC83EFB0ACA7E46FAFA,
+	IntVector2_op_Division_m205C5F6A981F2DEC10A9E828469DA4B52A4E4311,
+	IntVector2_op_Addition_m4EC3EEC8F92D298E93A6F3F53B8F1A03ED15637D,
+	IntVector2_op_Equality_m9ECDB0559579DA276DAB74B0605F29DA633BF567,
+	IntVector2_op_Inequality_mECD0623BF68FEE3C28E4CF4E147D45CB72D67151,
+	IntVector2_Max_m24E51C2170A1579BCA7F92CAC033CC2E530B1749,
+	IntVector2_Min_mDC997A2885085A30887E244BAFF941F1A387A0FF,
+	IntVector2_get_zero_mCF1B249FA0DF8CA7FA9C1DC741AA9B18B931581F,
+	IntVector2_get_one_m0F98ECB01E38A30FFD00D84508DBF5756DF51F73,
+	IntVector2_GetHashCode_m091907A8F206B996E2E137B31676277D82BDBF4A,
+	IntVector2_Equals_m45D8C33B59E6FB7E87A081DE90F287F7DE19BAC6,
+	IntVector3__ctor_mBFDD840E8F17101D7902D20A24D71A8C6074E273,
+	IntVector3_op_UnaryNegation_m74BAE64DB0EC5D220137A85B932889234498B0C7,
+	IntVector3_op_Subtraction_m6268F73D9418302ABFA0ECE5EB97A6593DFA46D8,
+	IntVector3_op_Multiply_m3DA311EC6C11BB24F3E298C8A845D7AEB7977CC5,
+	IntVector3_op_Multiply_m0E586328C1852C40FA3AFE992004E59675F17846,
+	IntVector3_op_Multiply_mCD2D5DAF1C6A910E573C910C71A66426423FA70C,
+	IntVector3_op_Division_m42396D06655BBF31D0723F47257D72AAA0524771,
+	IntVector3_op_Division_m160F06DE262F5FA31AAF383C4831E19E67B20CBC,
+	IntVector3_op_Addition_mF4C6658FED6F4B3857A1723AEEC33CE73B606579,
+	IntVector3_op_Equality_m8D30F7E4D52340D573B56E217943118AEB0786E0,
+	IntVector3_op_Inequality_m1B1DDEF2DD8CBABC36ACF6D0B2DCEDEFFAE2E49C,
+	IntVector3_Max_m553D2B8E7169595EFF5051C7979ACD072D9E25F3,
+	IntVector3_Min_m562C8C72A56015128972E2D9F38D81AD9786F8E8,
+	IntVector3_get_zero_m7D3E9EE8DBB2CA8C1074CDB28E953B908539335B,
+	IntVector3_get_one_mA06819F0AAE08E797A5CD91FD12DD169F4F5D494,
+	IntVector3_GetHashCode_m2640E8FE4409E746A36F2966A3AF3E7D95DE04E9,
+	IntVector3_Equals_m736EB192A1552767E2E031A45725CFC87067F9A8,
+	IntVector4__ctor_m968E5912AAE74CFAD8E13E7901AAA3BD5211299F,
+	IntVector4_op_UnaryNegation_mE2FF193A58874F3D30CF2DDCB138670DCC24B9E2,
+	IntVector4_op_Subtraction_mE20D2E84B0BFD5F3E46E8F5358E4E4F312262A27,
+	IntVector4_op_Multiply_m536322304A19A7F1A21D07A542C7C7DF6B9CE678,
+	IntVector4_op_Multiply_mD5B26480F3F2C52FDAA71F36FE6F466DF47F9E08,
+	IntVector4_op_Multiply_m3AD6A369BA4E90FECA25B1E4D74CD974CA96D60B,
+	IntVector4_op_Division_m7F87E25420829405B32EA9761E9CAB9C5040B218,
+	IntVector4_op_Division_mD329A1457238532A501A1998DBDB9AF601E94DE2,
+	IntVector4_op_Addition_m1AA85D766F0D31B500E0207EDE04E1AA358A622C,
+	IntVector4_op_Equality_m20DE257357B0EDC7BD6175D2910E7C70E433C34C,
+	IntVector4_op_Inequality_mA621466C8D16D4BFB0F9F18FEFB0E9E6321A8D89,
+	IntVector4_Max_mE366FF0CF247FE440DB09C7CF523690F85F7E120,
+	IntVector4_Min_m78A2ED547D2FAC1F49040A144BE7E80F49E1AE76,
+	IntVector4_get_zero_m983552AA0972620F91729F0A3785D2A049D9516D,
+	IntVector4_get_one_m7C4C9FF876D16879A4DC7F4877628D4E5059F953,
+	IntVector4_GetHashCode_m221D130BD826ED6E7C4D27488FDAB01346E2623C,
+	IntVector4_Equals_m669CC7DE3801D1583D93264AC8836C5B5E6BE7F1,
+	VoxelBaseExplosion_get_voxelBase_mB6894F7EFAF29203C574A79174CAE214CDF87819,
+	VoxelBaseExplosion_set_voxelBase_m7994A3E027E5F24E1584DAF72A2A9DA57CF9ADE3,
+	VoxelBaseExplosion_get_transformCache_m36CCB7027554B8FBE6BB941D82ACA69F6BD2D672,
+	VoxelBaseExplosion_set_transformCache_mA78AC618A18DE011FF222E99342858E4D9E1496E,
+	VoxelBaseExplosion_get_rendererCache_m81BC5AB09D045E49CC020AEA869F8537D3AD04B3,
+	VoxelBaseExplosion_set_rendererCache_m402113E31DA420F9549DB50EA8CAE1E69740CE19,
+	VoxelBaseExplosion_Awake_mD6537F6493BADBED297E82BE1B83F305E17C7707,
+	VoxelBaseExplosion_OnDestroy_m44CDA1BDCB14EA0E0B275A0AC5291CD3608D279B,
+	VoxelBaseExplosion_Update_mA3609C772C9E27D930821C76DE3ED7132BA7D7C2,
+	VoxelBaseExplosion_ExplosionPlay_m75A64F62976AEC3F46C461823A93FFDC68540DEE,
+	VoxelBaseExplosion_ExplosionReversePlay_m454813438756E6C2C29CBC91A81A0CFEF7C82E2F,
+	VoxelBaseExplosion_SetEnableExplosionObject_m9FC3F9DA912B595A3FD9C228914A8499F2CA7E69,
+	VoxelBaseExplosion_SetEnableRenderer_m35A9A6840230FB8BAA59DC95F3CB606B191D0E3B,
+	VoxelBaseExplosion_DrawMesh_mEE518F670BF926D9878BB4DC26F35FA49C4C0824,
+	VoxelBaseExplosion_SetExplosionRate_m06D929FA2727E297E8137F807DB8CDCB2C3D3EB3,
+	VoxelBaseExplosion_SetExplosionCenter_mC8D8B733F4C8C0D963A5BEDE009B571FCD5C4A41,
+	VoxelBaseExplosion_SetExplosionRotate_m642BF427D33B5881E13C435E1AE63B7D24BF2721,
+	VoxelBaseExplosion__ctor_m5A1FA8C2D85A431C7A8FD9111C69F34E7EB7C46E,
+	MeshData__ctor_m63083AAECFEA2E3D773577BB1C3671AF51A04156,
+	VoxelChunksObjectChunkExplosion_get_explosionObject_m2AE3EA08B1D16C335357B81F1A1BE0978D9325E0,
+	VoxelChunksObjectChunkExplosion_set_explosionObject_mA54955D005ACAEEC9B029A9F9F3F42626C579B92,
+	VoxelChunksObjectChunkExplosion_get_transformCache_m743C7BC769C104458D41BA8EBC6D452A2AC13607,
+	VoxelChunksObjectChunkExplosion_set_transformCache_mFA2B537EFFC6B1BFD02C795374737F4F665444EE,
+	VoxelChunksObjectChunkExplosion_get_parentCache_m55434552B8E0D7E4818A520E37362F7DA2C28C02,
+	VoxelChunksObjectChunkExplosion_set_parentCache_mB12446B16DD7C4D96BA6114D2D30E160D16705C6,
+	VoxelChunksObjectChunkExplosion_get_rendererCache_m36C03848756028D181495DA6BB0B5E72B749BF89,
+	VoxelChunksObjectChunkExplosion_set_rendererCache_m48EFB8B93F68FEA6B4917DCAF0F3981D1858B8A2,
+	VoxelChunksObjectChunkExplosion_Awake_m670518D2E5BFB4237B2D62708F4A287FC6C0A894,
+	VoxelChunksObjectChunkExplosion_DrawMesh_mD4F92F13C0188DBD57E6EB39429180CF826F1421,
+	VoxelChunksObjectChunkExplosion_SetEnableRenderer_m53A9B36A2EAF80A5AFCA4A57F6A3EB6D880AB478,
+	VoxelChunksObjectChunkExplosion__ctor_m91582A18358E345EF80BBFC4F01480A238496507,
+	VoxelChunksObjectExplosion_Awake_mF9D59CF72C038BE0BECD5E02D652FD42F7BE9896,
+	VoxelChunksObjectExplosion_OnDestroy_m363A98DBD70DA732ACA23BE3D8AA8C635EA63FA1,
+	VoxelChunksObjectExplosion_DrawMesh_m30E0417E5125FC6B28186DBCDA318140AD8281D8,
+	VoxelChunksObjectExplosion_SetEnableExplosionObject_m54748415F77D780FE34F4D3A8854F1D35B5AA8DB,
+	VoxelChunksObjectExplosion_SetEnableRenderer_mB17D2D32C663425C3FEC90FED89D7798A574EF58,
+	VoxelChunksObjectExplosion__ctor_m90D2CFB46D8DD670D0D8DB7FB165E9212F1F6116,
+	VoxelFrameAnimationObjectExplosion_get_voxelObject_mD95399937FC9815B706C7B61A8B415C6DF185B74,
+	VoxelFrameAnimationObjectExplosion_set_voxelObject_m8E4AD30C16C21872F510D5276310A0B0AB739555,
+	VoxelFrameAnimationObjectExplosion_Awake_m349BD3ACFF9369D523BC895A654AF0C8F22CF149,
+	VoxelFrameAnimationObjectExplosion_DrawMesh_mE6F45B828B30D78AC65A6F7140C9A4A47D8E9DD8,
+	VoxelFrameAnimationObjectExplosion__ctor_m0D90153B3496368B70FF87BEC4606F5BF60D8247,
+	VoxelObjectExplosion_get_voxelObject_m7B42556E249D16F4E06846F2F1C745D5B232D4D6,
+	VoxelObjectExplosion_set_voxelObject_m20EF18526E5C9EE1F3107EB935FF8D18CDB0C934,
+	VoxelObjectExplosion_Awake_m532486973041092C0E09BAFB3B0942EF7F356251,
+	VoxelObjectExplosion_DrawMesh_m155002BE8A4A64491AD4850A69A32BD30C9E939F,
+	VoxelObjectExplosion__ctor_m29F663E33B5DB2AC36AA26C8E17004EFF6C8B2E4,
+	VoxelSkinnedAnimationObjectExplosion_get_voxelObject_m908A319E824BBDCA7F8B6018D6EAC6C40ACC3698,
+	VoxelSkinnedAnimationObjectExplosion_set_voxelObject_m15FE0F47A1231A4A91BD7A71F63663D7A52052FA,
+	VoxelSkinnedAnimationObjectExplosion_get_skinnedMeshRendererCache_m8F7D85018789BF1516BE20727BE22BE29BCE4070,
+	VoxelSkinnedAnimationObjectExplosion_set_skinnedMeshRendererCache_m885B58E58A2CAEE3952B1F38F7B2649C5A81FC63,
+	VoxelSkinnedAnimationObjectExplosion_Awake_m612D6F4BA249B65BB27DBFE24781D076EBDE30C9,
+	VoxelSkinnedAnimationObjectExplosion_OnDestroy_mAF043736A5F057945418C6B00EA3CAD9A2F76CA9,
+	VoxelSkinnedAnimationObjectExplosion_BakeExplosionPlay_m59D3496782FCF20399B7F795055DCBEE026D117A,
+	VoxelSkinnedAnimationObjectExplosion_DrawMesh_m018162343E3760D42D7476AF693667F68D2974D9,
+	VoxelSkinnedAnimationObjectExplosion_BakeMesh_m73AC96E28F7C2B396CE5BC76B37393B4D4124B21,
+	VoxelSkinnedAnimationObjectExplosion__ctor_m302610952BEE240F8F28A54D68B64D898E0DA892,
+	SkinnedAnimationMeshData__ctor_m377D1F5C2376CD3306C6E83BA600C615D756155D,
+	VoxelStructure__ctor_mF281C52CB11606317B7631CF698D15C3D428B0F5,
+	Voxel_get_position_m2E3EBC03190C72A464B4DAD103B9D147535E87D1,
+	VoxelBase__ctor_mB1A2D2C1F501242C404D8B635C707A819D47B3CB,
+	VoxelChunksObject_Awake_m0C97C0FB164E6664E8E82C8EF0BC33E5455FD65D,
+	VoxelChunksObject__ctor_mE57A9FE30A11DDE85B7F8389F0D26126C8085BE9,
+	VoxelChunksObjectChunk_Awake_mB34C4FFE0BF6C05F637DFBF64E193AF36EA7F698,
+	VoxelChunksObjectChunk__ctor_mBC8F4116B9314FBE2EBCCC71DA22C3250C4F2130,
+	VoxelFrameAnimationObject_Awake_m074321DDCB2596877D3966F87B943608E5329518,
+	VoxelFrameAnimationObject_LateUpdate_mAA6C764D16F3A9F4E6DAA7BA80523DC408ACCADE,
+	VoxelFrameAnimationObject_ClearFrame_m1F6EC6D0FD1FAF661A695117145ACEDBB6453ED2,
+	VoxelFrameAnimationObject_ChangeFrame_m36F654896FBEA142CF477399C5B64AF778F303DF,
+	VoxelFrameAnimationObject__ctor_mD972AF4F8AB9C5456A10DE8DECD425B9DE87EF39,
+	FrameData__ctor_m2516B5F0D5C15B08D0328A32186FE5769E7A0F4E,
+	VoxelObject_Awake_m1EA7DC013A008DD15EA7FE1066922A41A9A94264,
+	VoxelObject__ctor_m0BB9E7270A722867490C8A6BCB9B25B7C955E271,
+	VoxelSkinnedAnimationObject_Awake_m67575ABED7AFC9A8D7EFFC21592CAF17F1EF7729,
+	VoxelSkinnedAnimationObject__ctor_mCAE52825E80E06758B0AB053E24FA39EED5387A4,
+	VoxelSkinnedAnimationObjectBone_Awake_m9A7028F1604787AC287323393DA16D3374A5A25F,
+	VoxelSkinnedAnimationObjectBone__ctor_mE3A198A17D16B449F518CBCAAF0650A642EA4F45,
+};
+extern void IntVector2__ctor_m0346F56EB0F9C5E62A14827A9F47A1E7B3C6C343_AdjustorThunk (void);
+extern void IntVector2_GetHashCode_m091907A8F206B996E2E137B31676277D82BDBF4A_AdjustorThunk (void);
+extern void IntVector2_Equals_m45D8C33B59E6FB7E87A081DE90F287F7DE19BAC6_AdjustorThunk (void);
+extern void IntVector3__ctor_mBFDD840E8F17101D7902D20A24D71A8C6074E273_AdjustorThunk (void);
+extern void IntVector3_GetHashCode_m2640E8FE4409E746A36F2966A3AF3E7D95DE04E9_AdjustorThunk (void);
+extern void IntVector3_Equals_m736EB192A1552767E2E031A45725CFC87067F9A8_AdjustorThunk (void);
+extern void IntVector4__ctor_m968E5912AAE74CFAD8E13E7901AAA3BD5211299F_AdjustorThunk (void);
+extern void IntVector4_GetHashCode_m221D130BD826ED6E7C4D27488FDAB01346E2623C_AdjustorThunk (void);
+extern void IntVector4_Equals_m669CC7DE3801D1583D93264AC8836C5B5E6BE7F1_AdjustorThunk (void);
+extern void Voxel_get_position_m2E3EBC03190C72A464B4DAD103B9D147535E87D1_AdjustorThunk (void);
+static Il2CppTokenAdjustorThunkPair s_adjustorThunks[10] = 
+{
+	{ 0x06000016, IntVector2__ctor_m0346F56EB0F9C5E62A14827A9F47A1E7B3C6C343_AdjustorThunk },
+	{ 0x06000025, IntVector2_GetHashCode_m091907A8F206B996E2E137B31676277D82BDBF4A_AdjustorThunk },
+	{ 0x06000026, IntVector2_Equals_m45D8C33B59E6FB7E87A081DE90F287F7DE19BAC6_AdjustorThunk },
+	{ 0x06000027, IntVector3__ctor_mBFDD840E8F17101D7902D20A24D71A8C6074E273_AdjustorThunk },
+	{ 0x06000036, IntVector3_GetHashCode_m2640E8FE4409E746A36F2966A3AF3E7D95DE04E9_AdjustorThunk },
+	{ 0x06000037, IntVector3_Equals_m736EB192A1552767E2E031A45725CFC87067F9A8_AdjustorThunk },
+	{ 0x06000038, IntVector4__ctor_m968E5912AAE74CFAD8E13E7901AAA3BD5211299F_AdjustorThunk },
+	{ 0x06000047, IntVector4_GetHashCode_m221D130BD826ED6E7C4D27488FDAB01346E2623C_AdjustorThunk },
+	{ 0x06000048, IntVector4_Equals_m669CC7DE3801D1583D93264AC8836C5B5E6BE7F1_AdjustorThunk },
+	{ 0x06000084, Voxel_get_position_m2E3EBC03190C72A464B4DAD103B9D147535E87D1_AdjustorThunk },
+};
+static const int32_t s_InvokerIndices[149] = 
+{
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	1528,
+	1061,
+	3143,
+	1241,
+	4011,
+	7266,
+	5756,
+	7090,
+	2868,
+	11853,
+	10275,
+	10273,
+	10274,
+	10275,
+	10274,
+	10275,
+	10275,
+	9993,
+	9993,
+	10275,
+	10275,
+	13091,
+	13091,
+	7090,
+	4047,
+	1528,
+	11854,
+	10278,
+	10276,
+	10277,
+	10278,
+	10277,
+	10278,
+	10278,
+	9994,
+	9994,
+	10278,
+	10278,
+	13092,
+	13092,
+	7090,
+	4047,
+	1064,
+	11855,
+	10281,
+	10279,
+	10280,
+	10281,
+	10280,
+	10281,
+	10281,
+	9995,
+	9995,
+	10281,
+	10281,
+	13093,
+	13093,
+	7090,
+	4047,
+	7124,
+	5756,
+	7124,
+	5756,
+	7124,
+	5756,
+	7266,
+	7266,
+	7266,
+	3238,
+	3238,
+	5622,
+	5622,
+	7266,
+	5812,
+	5876,
+	5812,
+	7266,
+	7266,
+	7124,
+	5756,
+	7124,
+	5756,
+	7124,
+	5756,
+	7124,
+	5756,
+	7266,
+	7266,
+	5622,
+	7266,
+	7266,
+	7266,
+	7266,
+	5622,
+	5622,
+	7266,
+	7124,
+	5756,
+	7266,
+	7266,
+	7266,
+	7124,
+	5756,
+	7266,
+	7266,
+	7266,
+	7124,
+	5756,
+	7124,
+	5756,
+	7266,
+	7266,
+	3238,
+	7266,
+	7266,
+	7266,
+	7266,
+	7266,
+	7253,
+	7266,
+	7266,
+	7266,
+	7266,
+	7266,
+	7266,
+	7266,
+	7266,
+	4047,
+	7266,
+	7266,
+	7266,
+	7266,
+	7266,
+	7266,
+	7266,
+	7266,
+};
+static const Il2CppTokenRangePair s_rgctxIndices[2] = 
+{
+	{ 0x02000002, { 0, 9 } },
+	{ 0x02000003, { 9, 2 } },
+};
+extern const uint32_t g_rgctx_TypeU5BU5DU5BU5DU5BU5D_t3B69D6541ABA945AECE00C0D6CCE82BDCAC55E21;
+extern const uint32_t g_rgctx_TypeU5BU5DU5BU5D_tA3459260E2D99340FBE3658610FF77084C3D3B9E;
+extern const uint32_t g_rgctx_TypeU5BU5D_tED83F79CC08F7DC1D1E8D1B3F0239893FEA94645;
+extern const uint32_t g_rgctx_DataTable3_1_Set_mBF5850293FA76A6156868402EAAF44FC2CA6597B;
+extern const uint32_t g_rgctx_DataTable3_1_Get_m980A9F197DDF9C70F3AB510F11C361C9B2D30D6B;
+extern const uint32_t g_rgctx_DataTable3_1_Remove_m0F315F05087ACD54F93BC2B9EE12BE02DFD28016;
+extern const uint32_t g_rgctx_U3CU3Ec__DisplayClass10_0_t59FFF9F72277F5A1C6B246C3039CFA90A9276983;
+extern const uint32_t g_rgctx_U3CU3Ec__DisplayClass10_0__ctor_m51F3E166D9B178E5880B80CBFB5C24AFAA7E0E7F;
+extern const uint32_t g_rgctx_U3CU3Ec__DisplayClass10_0_U3CAllActionU3Eb__0_m0A42B78821E674D52A1AC5A34E5015D09BB2815D;
+extern const uint32_t g_rgctx_Action_4_tD4A33DCB9F7881610EC963D7B6B1C5B42A068ABD;
+extern const uint32_t g_rgctx_Action_4_Invoke_mCCD48A16254203145ECD609CBDCA735A6F728539;
+static const Il2CppRGCTXDefinition s_rgctxValues[11] = 
+{
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_TypeU5BU5DU5BU5DU5BU5D_t3B69D6541ABA945AECE00C0D6CCE82BDCAC55E21 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_TypeU5BU5DU5BU5D_tA3459260E2D99340FBE3658610FF77084C3D3B9E },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_TypeU5BU5D_tED83F79CC08F7DC1D1E8D1B3F0239893FEA94645 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_DataTable3_1_Set_mBF5850293FA76A6156868402EAAF44FC2CA6597B },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_DataTable3_1_Get_m980A9F197DDF9C70F3AB510F11C361C9B2D30D6B },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_DataTable3_1_Remove_m0F315F05087ACD54F93BC2B9EE12BE02DFD28016 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CU3Ec__DisplayClass10_0_t59FFF9F72277F5A1C6B246C3039CFA90A9276983 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_U3CU3Ec__DisplayClass10_0__ctor_m51F3E166D9B178E5880B80CBFB5C24AFAA7E0E7F },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_U3CU3Ec__DisplayClass10_0_U3CAllActionU3Eb__0_m0A42B78821E674D52A1AC5A34E5015D09BB2815D },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_Action_4_tD4A33DCB9F7881610EC963D7B6B1C5B42A068ABD },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_Action_4_Invoke_mCCD48A16254203145ECD609CBDCA735A6F728539 },
+};
+IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AloneSoft_VoxelImporter_CodeGenModule;
+const Il2CppCodeGenModule g_AloneSoft_VoxelImporter_CodeGenModule = 
+{
+	"AloneSoft.VoxelImporter.dll",
+	149,
+	s_methodPointers,
+	10,
+	s_adjustorThunks,
+	s_InvokerIndices,
+	0,
+	NULL,
+	2,
+	s_rgctxIndices,
+	11,
+	s_rgctxValues,
+	NULL,
+	NULL, // module initializer,
+	NULL,
+	NULL,
+	NULL,
+};

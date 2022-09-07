@@ -1,0 +1,56 @@
+fileFormatVersion: 2
+guid: effc71bcbd788c148960d0b86b224fd8
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: eeb34f3ead148d04e8630fc3f79cbc1a, type: 3}
+  dataVersion: 6
+  fileType: 0
+  gameObjectName: Cannon
+  meshMode: 1
+  importMode: 1
+  importScale: {x: 0.1, y: 0.1, z: 0.1}
+  importOffset: {x: 0, y: 0, z: 0}
+  combineFaces: 1
+  ignoreCavity: 0
+  shareSameFace: 1
+  removeUnusedPalettes: 1
+  shareSameMaterial: 1
+  outputStructure: 0
+  generateLightmapUVs: 0
+  generateLightmapUVsAngleError: 8
+  generateLightmapUVsAreaError: 15
+  generateLightmapUVsHardAngle: 88
+  generateLightmapUVsPackMargin: 4
+  generateTangents: 0
+  generateVertexColors: 0
+  generateVertexColorMax: {r: 1, g: 1, b: 1, a: 1}
+  generateVertexColorMin: {r: 0.64, g: 0.64, b: 0.64, a: 1}
+  meshFaceVertexOffset: 0
+  loadFromVoxelFile: 1
+  generateMipMaps: 0
+  colliderType: 0
+  createContactChunkFaces: 0
+  materialMode: 0
+  materials:
+  - {fileID: -156486658544998735, guid: effc71bcbd788c148960d0b86b224fd8, type: 3}
+  - {fileID: 5865586234719623449, guid: effc71bcbd788c148960d0b86b224fd8, type: 3}
+  - {fileID: 3473123015285894068, guid: effc71bcbd788c148960d0b86b224fd8, type: 3}
+  materialNames:
+  - Cannon_2
+  - Cannon_1
+  - Cannon_0
+  remappedMaterials:
+  - name: Cannon_0
+    material: {instanceID: 0}
+  - name: Cannon_1
+    material: {instanceID: 0}
+  - name: Cannon_2
+    material: {instanceID: 0}
+  export: 0
+  legacyVoxImport: 0
+  legacyAssetNaming: 0
